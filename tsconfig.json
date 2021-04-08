@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "alwaysStrict": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "include": ["./src/*.ts", "./src/*.tsx", "./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules/", "dist/"]
+}

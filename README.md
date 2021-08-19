@@ -27,6 +27,8 @@ yarn add poml
 **Usage**
 
 ```typescript
+import { parsePOML } from 'poml'
+
 console.log(parsePOML('Hello <0>world!</0>'))
 // [
 //   { type: 'TextNode', value: 'Hello ' },
@@ -41,6 +43,8 @@ console.log(parsePOML('Hello <0>world!</0>'))
 **React**
 
 ```tsx
+import { Poml } from 'poml-react'
+
 // prettier-ignore
 <Poml
   source="<0>Hello, world!</0> This is<1>cool!</1>"
